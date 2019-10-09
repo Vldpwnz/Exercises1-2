@@ -8,16 +8,16 @@ public class Exercise2 {
                 System.out.print("Pling");
             }
             if (number % 5 == 0) {
-                    System.out.print("Plang");
-                }
+                System.out.print("Plang");
+            }
             if (number % 7 == 0){
-                    System.out.print("Plong");
-                }
+                System.out.print("Plong");
+            }
             if (number % 3 !=0 && number % 5 != 0 && number % 7 != 0){
                 System.out.print(number);
-                }
-        }
+            }
+    }
 
-        }
+ }
 
 
