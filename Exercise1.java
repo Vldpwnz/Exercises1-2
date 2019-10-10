@@ -3,7 +3,7 @@ public class Exercise1 {
     public static void main (String [] args){
         Scanner in = new Scanner(System.in);
         System.out.print("Enter your phrase to make an acronym: ");
-        String str = in.nextLine();
+        String str = in.nextLine().trim();
         int i;
         String result = "";
         result += str.charAt(0);
